@@ -18,7 +18,7 @@
 
 # Generador de Fuerza Bruta 🔓 
 
-![Alt text](Imagenes/Captura.png?raw=true "Title")
+![Alt text](Imagenes/Captura.png?raw=true "Imagen_Permutaciones")
 
 
 **Guía de uso**
