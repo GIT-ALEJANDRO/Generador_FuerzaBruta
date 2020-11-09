@@ -26,7 +26,7 @@
 
 1) El primer paso es descargar todos los archivos en nuestro sistema.
 2) La aplicación ya viene compilada para todos los sistemas operativos.
-3) **Abrir la terminal** dentro de la *carpeta **"Generador Fuerza Bruta"** *
+3) **Abrir la terminal** dentro de la *carpeta **"Generador Fuerza Bruta"***
 
 4a) Si tu sistema es **Linux o MacOS**, ejecutar la aplicación del siguiente modo:
 ```bash
@@ -64,12 +64,12 @@ Existen **6 modos para generar permutaciones**:
 
 Modos de Uso  | 
 -------------|
-binario |  01
-octal | 01234567
-decimal | 0123456789
-hexadecimal | 0123456789abcdef
-semicompleto | Todo el teclado MENOS Carácteres extraños
-completo | Todo el teclado CON carácteres extraños y la tecla 'space' 
+binario|01
+octal|01234567
+decimal|0123456789
+hexadecimal|0123456789abcdef
+semicompleto|Todo el teclado MENOS Carácteres extraños
+completo|Todo el teclado CON carácteres extraños y la tecla 'space' 
 
 ***NOTA:*** *Poner el argumento todo en minúsculas o mayúsculas.*
 
