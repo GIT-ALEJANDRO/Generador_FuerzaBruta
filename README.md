@@ -16,7 +16,7 @@
 - Añadir Inglés u otro idioma adicional
 
 
-#Generador de Fuerza Bruta 🔓 
+# Generador de Fuerza Bruta 🔓 
 
 ![Alt text](Imagenes/Captura.png?raw=true "Title")
 
@@ -42,10 +42,10 @@
 ```bash
 g++ -std=c++11 Generador.cpp -o Generador
 ```
-*Tener presente que requiere tener instalador g++ en el sistema. *
+*Tener presente que requiere tener instalador g++ en el sistema.*
 
 
-###Modos de uso 
+### Modos de uso 
 
 La aplicación consta de **2 argumentos principales** para su funcionamiento. 
 
@@ -57,7 +57,8 @@ El **segundo argumento** corresponde al modo en que se generaran esas permutacio
 **Advertencia:** Por seguridad la longitud máxima es de 20. Es modificable desde el archivo "Diccionario.h" luego tocaría compilar (ver Guía de uso) !!
 
 
-###Modos Disponibles (Segundo Argumento)
+### Modos Disponibles (Segundo Argumento)
+
 Existen **6 modos para generar permutaciones**: 
 
 
@@ -73,13 +74,13 @@ completo | 0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZñÑç�
 ***NOTA:*** *Poner el argumento todo en minúsculas o mayúsculas. *
 
 
-###Ejemplo de uso (En LINUX o MAC)
+### Ejemplo de uso (En LINUX o MAC)
 
-***CASO 1 : *** Supongamos queremos generar en modo binario, todas las posibles combinaciones, para una contraseña de una longitud máxima de 10 caracteres:
+***CASO 1 :*** Supongamos queremos generar en modo binario, todas las posibles combinaciones, para una contraseña de una longitud máxima de 10 caracteres:
 ```bash
 ./Generador 10 binario 
 ```
-***CASO 2: *** Supongamos queremos generar de modo completo, todas las posibles combinaciones, para una contraseña de una longitud máxima de 15 caracteres:
+***CASO 2:*** Supongamos queremos generar de modo completo, todas las posibles combinaciones, para una contraseña de una longitud máxima de 15 caracteres:
 ```bash
 ./Generador 15 completo 
 ```
@@ -87,20 +88,21 @@ completo | 0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZñÑç�
 ***Advertencia***: Puede tardar un buen rato ya que podemos generar un archivo con muchos MB o GB. 
 
 
-###Ejemplo de uso (En Windows)
+### Ejemplo de uso (En Windows)
 
-***CASO 1 : *** Supongamos queremos generar en modo binario, todas las posibles combinaciones, para una contraseña de una longitud máxima de 10 caracteres:
+***CASO 1 :*** Supongamos queremos generar en modo binario, todas las posibles combinaciones, para una contraseña de una longitud máxima de 10 caracteres:
 ```bash
 .\GeneradorWindows.exe 10 binario 
 ```
-***CASO 2: *** Supongamos queremos generar de modo completo, todas las posibles combinaciones, para una contraseña de una longitud máxima de 15 caracteres:
+***CASO 2:*** Supongamos queremos generar de modo completo, todas las posibles combinaciones, para una contraseña de una longitud máxima de 15 caracteres:
 ```bash
 .\GeneradorWindows.exe 15 completo 
 ```
 
 ***Advertencia***: Puede tardar un buen rato ya que podemos generar un archivo con muchos MB o GB. 
 
-###Licencia 
+### Licencia 
+
 Copyright (C) 2020  
 Autor: Alejandro García
 
@@ -117,7 +119,8 @@ Autor: Alejandro García
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 	
-###FIN
+### FIN
+
 **Este programa ha sido creado para aprender, no para ser utilizado con malos propositos**
 
 
