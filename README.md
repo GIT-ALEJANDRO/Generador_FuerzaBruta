@@ -61,15 +61,15 @@ El **segundo argumento** corresponde al modo en que se generaran esas permutacio
 
 Existen **6 modos para generar permutaciones**: 
 
+| Modos de Uso  | Carácteres      | 
+| ------------- |:---------------:| 
+| binario       |01               | 
+| octal         |01234567         |   
+| decimal       |0123456789       | 
+| hexadecimal   |0123456789abcdef | 
+| semicompleto  |Teclado completo SIN caracteres extraños| 
+| completo      |Teclado completo CON caracteres extraños| 
 
-Modos de Uso  | 
--------------|
-binario|01
-octal|01234567
-decimal|0123456789
-hexadecimal|0123456789abcdef
-semicompleto|Todo el teclado MENOS Carácteres extraños
-completo|Todo el teclado CON carácteres extraños y la tecla 'space' 
 
 ***NOTA:*** *Poner el argumento todo en minúsculas o mayúsculas.*
 
