@@ -1,7 +1,7 @@
 ### Características
 
 - Desarrollado en C++ 11. 
-- Soporte Multiplataforma :fa-heart:  Linux, MacOS y Windows.
+- Soporte Multiplataforma ❤️ Linux, MacOS y Windows.
 - 6 Modos disponibles (Binario, Octal, Decimal, Hexadecimal, Semicompleto, Completo).
 - Genera automáticamente un archivo de extensión ".txt" , en la misma ruta donde ejecutes la aplicación.
 - Se ejecuta desde el terminal pasandole argumentos.
@@ -32,7 +32,7 @@
 ```bash
 ./Generador -h
 ```
-4b) Si tu sistema operativo es** Windows**, ejecutar la aplicación del siguiente modo:
+4b) Si tu sistema operativo es **Windows**, ejecutar la aplicación del siguiente modo:
 ```bash
 .\GeneradorWindows.exe -h 
 ```
@@ -68,10 +68,10 @@ binario |  01
 octal | 01234567
 decimal | 0123456789
 hexadecimal | 0123456789abcdef
-semicompleto | 0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ
-completo | 0123456789aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZñÑçÇ!@#$%^&*()-_+=~`[]{}\\:;\"'<>,.?/
+semicompleto | Todo el teclado MENOS Carácteres extraños
+completo | Todo el teclado CON carácteres extraños y la tecla 'space' 
 
-***NOTA:*** *Poner el argumento todo en minúsculas o mayúsculas. *
+***NOTA:*** *Poner el argumento todo en minúsculas o mayúsculas.*
 
 
 ### Ejemplo de uso (En LINUX o MAC)
